@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Not found</h1>
+  <ng-container *ngIf="accountService.currentUser$ | async">
+    <button class="btn btn-primary mr-2" routerLink="/members">
+      Return to members page
+    </button>
+  </ng-container>
+  <button class="btn btn-info" routerLink="/">Return to home page</button>
+</div>

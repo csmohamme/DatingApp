@@ -4,6 +4,7 @@
         "datepicker",
         "hmac",
         "HMACSHA",
+        "titlecase",
         "toastr"
     ]
 }
